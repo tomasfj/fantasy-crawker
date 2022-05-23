@@ -28,7 +28,7 @@ with open('all-teams-list.csv', mode='w') as f:
 
   f_writer.writerow( ['team#', 'player1', 'player2', 'player3', 'player4', 'player5'] )
 
-# request data
+# requst data
 while(countEmptyResponses < 10):
   startTime = time.time()
 
@@ -63,3 +63,4 @@ while(countEmptyResponses < 10):
   currentTeamValue += 1
 
 print('\nDONE RUNNING')
+print("yooo")
